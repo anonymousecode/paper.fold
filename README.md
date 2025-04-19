@@ -2,7 +2,7 @@
 
 **paper.fold** is a fun and interactive project that visualizes how the thickness of a paper increases as you fold it multiple times. It compares the resulting thickness with real-life objects to give users a playful and educational perspective.
 
-🚀 [View on Netlify]([https://paper-fold.netlify.app/])
+🚀 [View on Netlify](https://paper-fold.netlify.app/)
 
 ---
 
