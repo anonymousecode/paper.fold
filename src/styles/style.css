@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 35px;
+  font-style: normal;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.reference-image {
+  width: 300px; /* or whatever fixed width you want */
+  height: 200px; /* fixed height */
+  object-fit: cover; /* ensures the image fills the box nicely */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.unfold-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(45deg, #fe1e09, #ffcc00); /* Red and Yellow gradient */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.unfold-btn:hover {
+  background: linear-gradient(45deg, #ff5e50, #ffbb00); /* Slightly darker gradient on hover */
+  transform: scale(1.05);
+}
+
+.unfold-btn:active {
+  background: linear-gradient(45deg, #ff4d40, #ffaa00); /* Even darker gradient on active */
+  transform: scale(0.98);
+}
+
+.fold-btn  {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(45deg, #fe1e09, #ffcc00); /* Red and Yellow gradient */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fold-btn:hover {
+  background: linear-gradient(45deg, #ff5e50, #ffbb00); /* Slightly darker gradient on hover */
+  transform: scale(1.05);
+}
+
+.fold-btn:active {
+  background: linear-gradient(45deg, #ff4d40, #ffaa00); /* Even darker gradient on active */
+  transform: scale(0.98);
+}
+
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px; /* Adjusted font size for smaller screens */
+  }
+
+  h2 {
+    font-size: 30px; /* Adjusted font size for smaller screens */
+  }
+
+  h3 {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+  }
+
+  .reference-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Adjust height according to the width */
+    max-width: 300px; /* Ensure the image doesn't get too large */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px; /* Further reduce font size for very small screens */
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .reference-image {
+    width: 100%;
+    height: auto;
+    max-width: 250px; /* Adjust maximum size of the image */
+  }
+}
